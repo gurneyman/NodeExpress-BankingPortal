@@ -1,0 +1,14 @@
+<%- include('header') %>
+<div class="container">
+    <h1>Profile</h1>
+    <a href="/profile">Profiles</a>
+</div>
+
+<p><%= user.name %></p>
+<p><%= user.username %></p>
+<p><%= user.phone %></p>
+<p><%= user.email %></p>
+<p><%= user.address %></p>
+
+<br><a href="/">Back to Account Summary</a>
+<%- include('footer') %>
